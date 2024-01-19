@@ -127,6 +127,7 @@ var appDelegate: AppDelegate!
 		else if shouldShowRedditDeprecationAlert() {
 			showRedditDeprecationAlert()
 		}
+		Socks5ProxyManager.configureSession()
 	}
 
 	// MARK: - API
